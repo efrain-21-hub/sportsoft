@@ -1,0 +1,16 @@
+/* Directivas de Tailwind — generan todas las clases de utilidad */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset global: aplica la fuente Inter a todo el proyecto */
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Sin margen ni padding en el body */
+body {
+  margin: 0;
+  padding: 0;
+}
